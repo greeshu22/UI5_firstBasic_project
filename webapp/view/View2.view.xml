@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.anjali.project1.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="2nd view" showNavButton="true" navButtonPress="onBack">
+        <content>
+        <Button text="Go to 3rd view" press="onPressButton"></Button>
+        </content>
+    </Page>
+</mvc:View>

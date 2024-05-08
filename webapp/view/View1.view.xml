@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.anjali.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="1st view">
+        <content> 
+        <Text text="I am new text" textAlign="Center" width="100%"></Text>
+        <Label text="Employee name" required="true" class="sapUiSmallMargin" ></Label>
+        <Input value="Ravi" width="30%" maxLength="10" enabled="false"></Input>
+        <Button text="Submit" type="Emphasized"></Button>
+         <Button text="Go to 2nd view" press="onPress2ndview"></Button>
+        <Button text="Go to 3rd view" press="onPress"></Button>
+        </content>
+    </Page>
+</mvc:View>
